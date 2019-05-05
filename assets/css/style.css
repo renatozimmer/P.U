@@ -1,0 +1,93 @@
+body, h1 {
+    margin: 0;    
+    font-family: 'Montserrat', sans-serif;    
+}
+* {
+    box-sizing: border-box;
+}
+input {
+    height: 34px;
+}
+.container{
+    width: 1140px;    
+	margin: 0 auto;	
+}
+.clearfix{
+	clear: both;
+}
+.header-bottom {
+    margin-bottom: 10px;
+    
+}
+.content-product {
+    width: 250px;
+    padding: 5px;
+    /* background-color: yellow; */
+    float: left;
+}
+.product-info {
+    margin: 5px;
+    height: 80px;
+}
+.product-info .local {
+    font-size: 12px;
+}
+.product-info h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.product-price {
+    width: 125;
+    margin-left: 2px; 
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF8E26;
+}
+.product-buy{
+    margin-right: 2px;
+    float: right;
+}
+.btn {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF8E26;
+    padding: 10px 30px;
+    display: inline-block;    
+}
+.btn:hover {
+    background-color: #FFBE25;
+}
+.payment-header {
+    width: 100%;
+    padding-left: 150px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.payment-header span {
+    font-size: 20px;
+
+}
+.paymente-button {
+    padding: 3px;
+    float: left;
+}
+.payment-option {
+    float: left;
+}
+.payment-number {
+    float: left;
+    margin-left: 5px;
+}
+.payment-cvv{
+    width: 180px;
+    font-size: 18px;
+    float: left;
+    margin-left: 5px;
+}
+.payment-quantit {
+    float: left;
+    margin-left: 5px;
+}

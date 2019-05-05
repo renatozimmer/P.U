@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Peixe Urbano</title>
+        <script type="text/javascript" src="assets/js/funcoes.js"></script>
+        <link rel="stylesheet" href="https://app.stpu.com.br/static/css/deals_PU-587.min.css">        
+        <link id="styles">        
+        <link rel="stylesheet" href="assets/css/style.css">        
+
+    </head>
+
+    <body>
+        <p data-num="37" id="valid-deals" class="hide">has-valid-deals</p>
+        <div class="site-wrap">
+            
+                <div class="header">
+                <div class="container">
+                <div class="header-content">
+            
+                    <input value="florianopolis" id="page_id" type="hidden">
+                    <span class="logo-container">
+                        <a href="/" class="logo-br" rel="nofollow"></a>
+                    </span>
+            
+                    <div class="header-search-box">
+                        <div>
+            
+                            <div class="explore-box">
+                                <div class="search-box" itemscope="" itemtype="http://schema.org/WebSite">
+                                    <meta content="https://www.peixeurbano.com.br" itemprop="url" class="meta-search-url">
+                                    <form action="/florianopolis/busca" itemtype="http://schema.org/SearchAction" itemscope="" itemprop="potentialAction" class="searchForm search-box-top" id="searchForm">
+                                        <input class="search-marketing" type="hidden">
+                                        <input class="search-sort" type="hidden">
+                                        <meta content="/florianopolis/busca?q={q}" itemprop="target" class="meta-search-target">
+                                        <div class="search-suggest">
+                                            <input aria-label="Campo de busca" placeholder="Buscar ofertas, bairros, etc." data-placeholder-short="Buscar" type="text" name="q" class="db-input typeahead q-suggest" itemprop="query-input" autocomplete="off" value="">
+                                        </div>
+                                        <button style="display: none;" type="submit">Buscar</button>
+                                    </form>
+                                </div>
+
+                                <div class="cities-box">
+                                    <div class="pu-selector white cities-selector">
+                                        <div class="current-selected cities-link">
+                                            <span class="current-selected-name">Florianópolis</span>
+                                        </div>
+
+                                        <div class="other-options">
+                                            <div class="other-options-filter">
+                                                <form autocomplete="off">
+                                                    <input placeholder="encontre sua cidade" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" type="text" class="cities-filter-input">
+                                                </form>
+                                                <i class="icon-search"></i>
+                                            </div>
+                                            <div class="other-options-list">
+                                                <div class="splitter-option popular-list-splitter">Cidades populares</div>
+                                                <ul class="popular-list">
+                                                    <li class="popular-city">
+                                                        <a href="/campinas" rel="nofollow" class="pu-option city-link">Campinas</a>
+                                                    </li>
+                                                    <li class="popular-city">
+                                                        <a href="/curitiba" rel="nofollow" class="pu-option city-link">Curitiba</a>
+                                                    </li>
+                                                    <li class="popular-city">
+                                                        <a href="/florianopolis" rel="nofollow" class="pu-option city-link">Florianópolis</a>
+                                                    </li>
+                                                    <li class="popular-city">
+                                                        <a href="/fortaleza" rel="nofollow" class="pu-option city-link">Fortaleza</a>
+                                                    </li>                                
+                                                </ul>
+                                                <div class="splitter-option other-list-splitter">Todas as cidades</div>
+                                                <ul class="other-list">
+                                                    <li class="other-city">
+                                                        <a href="/balneario-camboriu" rel="nofollow" class="pu-option city-link">Baln. Camboriú / Itajaí / Itapema</a>
+                                                    </li><li class="other-city">
+                                                        <a href="/barueri" rel="nofollow" class="pu-option city-link">Barueri</a>
+                                                    </li><li class="other-city">
+                                                        <a href="/bauru" rel="nofollow" class="pu-option city-link">Bauru</a>
+                                                    </li><li class="other-city">
+                                                        <a href="/belem" rel="nofollow" class="pu-option city-link">Belém</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button form="searchForm" type="submit" class="search-submit btn primary "><i class="icon-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-container">
+                            <span class="top-dropdown" id="_usermenu">
+                                <div class="user-menu">
+                                    <div class="not-logado" id="not_loggedin_user_menu">
+                                        <div class="dados-user">
+                                            <span class="name-user-label">Login</span>
+                                            <div rel="nofollow" class="cta-user">
+                                                <div class="btn">Entrar</div>
+                                            </div>
+                                            <div class="account-menu">
+                                                <div class="arrow">
+                                                    
+                                                </div>
+                                                <div class="content-menu">
+                                                    <div>
+                                                        <button data-page-element="header" id="fbLoginBtn" class="fbLoginBtn btn btn-fb" rel="nofollow">
+                                                            <span class="icon-facebook-squared"></span> 
+                                                            Entrar com Facebook
+                                                        </button>
+                                                        <button data-page-element="header" id="gcLoginBtn" class="gcLoginBtn btn btn-gc" rel="nofollow">
+                                                            <span class="ico-google">
+                                                                <svg version="1.1" viewBox="0 0 18 18" height="14px" width="18px">
+                                                                    <g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="Google-Button">
+                                                                        <g transform="translate(-15.000000, -15.000000)" id="btn_google_signin_light_normal_web">
+                                                                            <g transform="translate(15.000000, 15.000000)" id="logo_googleg_48dp">
+                                                                                <path fill="#4285F4" d="M17.64,9.20454545 C17.64,8.56636364 17.5827273,7.95272727 17.4763636,7.36363636 L9,7.36363636 L9,10.845 L13.8436364,10.845 C13.635,11.97 13.0009091,12.9231818 12.0477273,13.5613636 L12.0477273,15.8195455 L14.9563636,15.8195455 C16.6581818,14.2527273 17.64,11.9454545 17.64,9.20454545 L17.64,9.20454545 Z"></path>
+                                                                                <path fill="#34A853" d="M9,18 C11.43,18 13.4672727,17.1940909 14.9563636,15.8195455 L12.0477273,13.5613636 C11.2418182,14.1013636 10.2109091,14.4204545 9,14.4204545 C6.65590909,14.4204545 4.67181818,12.8372727 3.96409091,10.71 L0.957272727,10.71 L0.957272727,13.0418182 C2.43818182,15.9831818 5.48181818,18 9,18 L9,18 Z"></path>
+                                                                                <path fill="#FBBC05" d="M3.96409091,10.71 C3.78409091,10.17 3.68181818,9.59318182 3.68181818,9 C3.68181818,8.40681818 3.78409091,7.83 3.96409091,7.29 L3.96409091,4.95818182 L0.957272727,4.95818182 C0.347727273,6.17318182 0,7.54772727 0,9 C0,10.4522727 0.347727273,11.8268182 0.957272727,13.0418182 L3.96409091,10.71 L3.96409091,10.71 Z"></path>
+                                                                                <path fill="#EA4335" d="M9,3.57954545 C10.3213636,3.57954545 11.5077273,4.03363636 12.4404545,4.92545455 L15.0218182,2.34409091 C13.4631818,0.891818182 11.4259091,0 9,0 C5.48181818,0 2.43818182,2.01681818 0.957272727,4.95818182 L3.96409091,7.29 C4.67181818,5.16272727 6.65590909,3.57954545 9,3.57954545 L9,3.57954545 Z"></path>
+                                                                                <polygon points="0 0 18 0 18 18 0 18"></polygon>
+                                                                            </g>
+                                                                        </g>
+                                                                    </g>
+                                                                </svg>
+                                                            </span> Entrar com Google
+                                                        </button>
+                                                    </div>
+                                                    <div>
+                                                        <a href="/cadastre-se" rel="nofollow" class="nav-signup">Cadastre-se</a>
+                                                        <a href="/login" rel="nofollow" class="nav-login">Entrar</a>
+                                                    </div>
+                                                    <a class="nav-help help-link" rel="nofollow">Ajuda</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="/cadastre-se" class="top-signup">Criar uma conta</a>
+                                    </div>
+                                </div>
+                            </span>             
+                            
+                            <span id="_favorites"></span>
+                            <div class="cart-container top-dropdown">    
+                                <span id="cart_user" class="cart-user top-dropdown-cta" rel="nofollow">
+                                    <a id="cart-user-link" title="" href="javascript:void(0)" rel="nofollow">
+                                        <span class="deal_qty_cart hide"></span>
+                                        <i class="icon-cart-empty-slim"></i>
+                                        <span class="deal_lbl_cart">Carrinho</span>
+                                    </a>
+                                </span>
+                
+                                <div class="data_cart top-dropdown-menu">
+                                    <div class="dropdown-title">Carrinho</div>
+                                    
+                                    <div class="arrow"></div>
+                                    <div class="cart_menu">
+                                        <div class="full-cart hide">
+                                            <ul class="cart_menu_list">
+                                                <li class="cart_deal">
+                                                    <img src="" width="70">
+                                                    <span class="small-title"></span>
+                                                    <span class="option"></span>
+                                                    <span class="qty"></span>
+                                                </li>
+                                            </ul>
+                                            <a href="https://carrinho.peixeurbano.com.br/v2/comprando" rel="nofollow" class="btn primary view-more go_cart">ir para o carrinho</a>
+                                        </div>
+                                        <div class="empty-cart">
+                                            <p class="empty-title">Seu carrinho está vazio</p>
+                                            <span class="empty-description">Escolha uma oferta agora mesmo e aproveite!</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <ul class="flyout-first nav-left">
+                        <li class="type-local item-first  active">
+                            <a href="/" title="" class="city-selector local-selector" id="header-link-local">Na cidade</a>
+                        </li>
+                        <li class="type-travel item-first ">
+                            <a data-url="viagens" href="/viagens" id="header-link-travel" class="city-selector" title="">Viagens</a>
+                        </li>
+                        <li class="type-product item-first ">
+                            <a data-url="produtos" href="/produtos" id="header-link-products" class="city-selector" title="">Produtos</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <li class="hader-link-cinema">
+                            <a href="/florianopolis/cinema"  rel="">Cinemas</a>
+                        </li>
+                        <li class="">
+                            <a href="/cupons" rel="">Cupons Online</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-fill">
+                        <li class="">
+                            <a href="/florianopolis/restaurantes" rel="nofollow">Restaurantes</a>
+                        </li>
+                        <li class="">
+                            <a href="/florianopolis/beleza" rel="nofollow">Beleza e Fitness</a>
+                        </li>
+                        <li class="">
+                            <a href="/florianopolis/diversao" rel="nofollow">Diversão</a>
+                        </li>
+                        <li class="">
+                            <a href="/florianopolis/comercio-e-servicos-locais" rel="nofollow">Serviços</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="container">
+                    <div class="content-product">
+                        <div class="product-img">
+                            <img alt="Cinemark: Ingresso para o Cinema" width="220" class="thumbnail lazy lazy-show" data-original="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000jZW82MAG/593afbe7e4b06e1b7966cd8e.jpg&amp;w=338&amp;h=220" height="200" src="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000jZW82MAG/593afbe7e4b06e1b7966cd8e.jpg&amp;w=338&amp;h=220" draggable="false" style="">                        
+                        </div>
+                        <div class="product-info">
+                            <h3>Cinemark</h3>
+                            <span class="local">Floripa Shopping</span><br/>
+                            <span>Cinemark: Ingresso para o Cinema</span>
+                        </div>
+                        <div class="product-price">
+                            R$ 14,90
+                        </div>
+                        <div class="product-buy">
+                            <a href="#" class="btn" onclick="payment(14.90)">Compre</a>
+                        </div>
+                    </div>
+                    
+                    <div class="content-product">
+                        <div class="product-img">
+                            <img alt="Ingresso 2D ou 3D para o Cinema. Diversos filmes em Cartaz!" width="220" class="thumbnail lazy lazy-show" data-original="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000jZNnSMAW/5967b6a1e4b0b13e47696dd1.jpg&amp;w=338&amp;h=220" height="200" src="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000jZNnSMAW/5967b6a1e4b0b13e47696dd1.jpg&amp;w=338&amp;h=220" draggable="false" style="">                        
+                        </div>
+                        <div class="product-info">
+                            <h3>Cinesystem</h3>
+                            <span class="local">Shopping Center Iguatemi</span><br/>
+                            <span>2D ou 3D para o Cinema. Diversos filmes em Cartaz!</span> 
+                        </div>
+                        <div class="product-button">
+                            <div class="product-price">
+                                R$ 13,90
+                            </div>
+                            <div class="product-buy">
+                                <a href="#" class="btn" onclick="payment(13.90)">Compre</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-product">
+                        <div class="product-img">
+                            <img alt="Ingresso para o Cinema com opção para Todos os Dias da Semana" width="220" class="thumbnail lazy lazy-show" data-original="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000uMwfEMAS/5880c262e4b05fef380b5cec.jpg&amp;w=338&amp;h=220" height="200" src="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0RG000000uMwfEMAS/5880c262e4b05fef380b5cec.jpg&amp;w=338&amp;h=220" draggable="false" style="">
+                        </div>
+                            <div class="product-info">
+                                <h3>Cinepolis</h3>
+                                <span class="local">Continente Shopping</span><br/>
+                                <span>Ingresso para o Cinema com opção para Todos os Dias da Semana</span>
+                        </div>
+                        <div class="product-price">
+                            R$ 12,90
+                        </div>
+                        <div class="product-buy">
+                            <a href="#" class="btn"  onclick="payment(12.90)">Compre</a>
+                        </div>
+                    </div>
+                    <div class="content-product">
+                        <div class="product-img">
+                            <img alt="Passaporte para até 3 Dias de Diversão no Parque" width="220" class="thumbnail lazy lazy-show" data-original="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R0f00000xFgejEAC/5c66e819e4b0a46171a29369.jpg&amp;w=338&amp;h=220" height="200" src="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R0f00000xFgejEAC/5c66e819e4b0a46171a29369.jpg&amp;w=338&amp;h=220" draggable="false" style="">
+                        </div>
+                        <div class="product-info">
+                            <h3>Parque Beto Carrero World</h3>
+                            <span>Passaporte para até 3 Dias de Diversão no Parque</span>
+                        </div>
+                          <div class="product-price">
+                            R$ 90,00
+                        </div>
+                        <div class="product-buy">
+                            <a href="#" class="btn" onclick="payment(90.00)">Compre</a>
+                        </div>
+                    </div>                   
+                    <div class="clearfix"></div>
+                </div>
+                <div class="content-payment">
+                    <div class="container">
+                            <div class="product-pay" id="resultado">
+                               
+                            </div>
+                    </div>
+                </div>
+            </div> 
+
+
+        </div>
+
+
+    </body>
+</html>
